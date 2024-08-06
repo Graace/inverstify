@@ -1,0 +1,1 @@
+Inverstify serves as a digital platform that provides users with access to financial markets, investment opportunities, tools, resources, and information needed to make informed investment decisions. Whether you're a beginner looking to start investing or an experienced investor seeking advanced trading capabilities, investify offers a range of features to meet your needs.
