@@ -89,7 +89,7 @@ nav .btn {
 
 #plan {
   background: var(--bg-blue);
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 
 #plan h2 {
@@ -136,7 +136,7 @@ nav .btn {
   /* width: 100px;
   height:100px; */
   padding: 10px;
-  color: var(--bg-green);
+  color: var(--bg-orange);
 }
 
 #plan .card-title{
@@ -166,12 +166,12 @@ nav .btn {
 }
 
 .icofont-tick-boxed{
-  color: var(--bg-green);
+  color: var(--bg-orange);
   font-size: 20px;
 }
 
 .btn-5{
-  background: var(--bg-green);
+  background: var(--bg-orange);
   border: none;
   padding: 0 30px;
   border: none;
@@ -183,7 +183,7 @@ nav .btn {
 }
 
 .btn-6{
-  background: var(--bg-green);
+  background: var(--bg-orange);
   border: none;
   padding: 0 30px;
   border: none;
@@ -195,7 +195,7 @@ nav .btn {
 }
 
 .btn-7{
-  background: var(--bg-green);
+  background: var(--bg-orange);
   border: none;
   padding: 0 30px;
   border: none;
@@ -220,7 +220,7 @@ nav .btn {
   background: var(--bg-meduimGrey);
   border-radius: 50%;
   padding: 10px;
-  outline:1px solid var(--bg-green);
+  outline:1px solid var(--bg-orange);
   margin-bottom: 10px;
   margin-top: 30px;
 }
@@ -235,10 +235,115 @@ nav .btn {
 } */
 
 #transaction{
+  /* margin: 20px 0; */
   padding: 30px;
-  background-image: url('../images/invest_bg.jpg');
-  /* filter: blur(3px); */
-  width: 100%;
+  background: var(--bg-darkBlue);
+}
+
+ #transaction .transaction .input-group{
+  color: var(--text-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
+#transaction .transaction .input-group-1 .btn{
+  
+  color: var(--text-white);
+  outline: 1px solid var(--bg-meduimGrey);
+}
+
+#transaction .transaction .input-group-1 .btn:hover{
+  background: var(--bg-darkBlue);
+}
+
+#transaction .transaction .input-group-1 .btn.one{
+  background: var(--bg-orange);
+}
+
+#transaction .transaction .table{
+  color: var(--text-white);
+}
+
+#transaction .transaction .table thead .active{
+  background: var(--bg-orange);
+}
+
+#payment{
+  padding: 30px;
+  background: var(--bg-blue);
+  color: var(--text-white);
+}
+
+#payment .text h4{
+  text-transform: uppercase;
+  color: var(--bg-orange);
+}
+
+#payment .payment a{
+  padding: 30px 50px;
+  margin-left: 40px;
+}
+
+#payment .payment a img{
+  margin: 30px 0;
+}
+
+#payment .payment a:hover{
+  background: var(--bg-orange);
+}
+
+#footer{
+  background: var(--bg-darkBlue);
+  padding: 30px;
+  color: var(--bg-grey);
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer{
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer p{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#footer .footer span{
+  font-size: 40px;
+}
+
+#footer .icons{
+  font-size: 50px;
+}
+
+#footer .links{
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .links ul li a{
+  color: var(--text-grey);
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+.bi-caret-right-fill{
+  color: var(--bg-orange);
+}
+
+#footer .useful{
+  flex-basis: 50%;
+}
+
+#footer a .fill{
+  color: var(--bg-orange);
+  font-size: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
