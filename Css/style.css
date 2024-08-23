@@ -38,7 +38,6 @@
   justify-content: space-between;
   padding: 0 30px ;
 } */
-
 #navbarNavDropdown .navbar-nav .nav-item a{
   color: var(--text-white);
   text-decoration: none;
@@ -65,15 +64,6 @@ nav ul li {
   padding: 0 45px;
 }
 
-/* nav ul li .nav-item a {
-  text-decoration: none;
-  color: var(--text-white);
-} */
-
-nav .btn {
-  background: var(--bg-green);
-  border-radius: 6px;
-}
 /* nav ul li .nav-item a {
   text-decoration: none;
   color: var(--text-white);
