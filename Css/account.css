@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+}
+
+:root {
+  --bg-blue: hsl(213, 19%, 18%);
+  --text-white: hsl(0, 0%, 100%);
+  --bg-orange:#dba622;
+  --bg-meduimGrey: hsla(216, 12%, 54%, 0.1);
+  --bg-green: #c7f134;
+  --bg-darkBlue: hsl(216, 12%, 8%);
+  --bg-grey: hsl(217, 12%, 54%);
+}
+
+#header {
+  background: var(--bg-blue);
+  color: var(--text-white);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-content: center;
+}
+
+
+nav .firstNav{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+nav .firstNav img{
+  width: 30%;
+}
+
+nav .firstNav .bi{
+  margin:10px 20px;
+  cursor: pointer;
+  /* padding-top: 5px; */
+}
+
+.aside{
+  display: flex;
+}
+
+.aside .sideBar{
+  background: var(--bg-blue);
+  align-items: center;
+  border-right: 3px solid var(--bg-orange);
+}
+
+.aside .sideBar ul{
+  width: 33vh;
+  height: 100vh;
+  line-height: 50px;
+  /* position:fixed;
+  bottom: 0;
+  left: 0; */
+}
+
+.aside .sideBar a{
+  color: var(--text-white);
+}
+
+.aside .text{
+  width: 100%;
+}
+
+.aside .text .txt{
+  padding: 30px;
+  display: flex;
+  background: var(--bg-darkBlue);
+  color: var(--text-white);
+  border-top: 3px solid var(--bg-orange);
+  
+}
+
+.aside .text img{
+  width: 12%;
+  height: 20%;
+  margin-top: 70px;
+}
+
+.aside .text .text-1{
+  flex-basis: 40%;
+  padding: 30px;
+}
+
+.aside .text .text-2{
+  flex-basis: 30%;
+  padding: 30px;
+}
+
+.aside .text .text-3{
+  flex-basis: 20%;
+  padding: 30px;
+}
+
+.aside .text .txt-2{
+  background: url(../images/pattern.png);
+  padding: 30px;
+  color: var(--text-white);
+}
+
+
+
+.aside .text .txt-2 .card-body{
+  background: var(--bg-blue);
+  cursor: pointer;
+  color: var(--text-white);
+  outline: 1px solid var(--bg-blue);
+  border-radius: 2px;
+  padding-top: 10px;
+}
+
+.aside .text .txt-2 .card-body:hover{
+  outline: 2px solid var(--bg-orange);
+  border-radius: 5px;
+  
+}
+
+.aside .text .txt-3{
+  background: var(--bg-darkBlue);
+  padding: 30px;
+  color: var(--text-white);
+}
+
+.aside .text .txt-3 .table{
+  color: var(--text-white);
+  background: url(../images/pattern.png);
+  border: 1px solid var(--bg-orange);
+  
+}
+
+.aside .text .txt-3 .table thead th{
+  padding: 30px;
+}
+
+.aside .text .txt-3 .table tbody td{
+  padding: 30px;
+}
+
+.aside .text .txt-3 .table tbody tr:hover{
+  background: var(--bg-darkBlue);
+}
